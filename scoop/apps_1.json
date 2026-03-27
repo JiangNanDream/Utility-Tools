@@ -1,0 +1,94 @@
+{
+  "buckets": {
+    "extras": {},
+	"games": {},
+    "scoopcn": {
+      "url": "https://github.com/scoopcn/scoopcn.git"
+    }
+  },
+  "groups": {
+	"base": [
+	  { "name": "git" },
+	  { "name": "7zip" },
+	  { "name": "vscode", "bucket": "extras" }
+	],
+	"media": [
+	  { "name": "ffmpeg" },
+	  { "name": "potplayer", "bucket": "extras" },
+	  { "name": "obs-studio", "bucket": "extras" }
+	],
+	"system-tools": [
+	  { "name": "everything", "bucket": "extras" },
+	  { "name": "everythingtoolbar", "bucket": "extras" },
+	  { "name": "onecommander", "bucket": "extras" },
+	  { "name": "deskpins", "bucket": "extras" },
+	  { "name": "autohotkey", "bucket": "extras" },
+	  { "name": "fd" },
+	  { "name": "fzf" },
+	  { "name": "ripgrep" },
+	  { "name": "hwinfo", "bucket": "extras" }
+	],
+	"productivity": [
+	  { "name": "typora", "bucket": "extras" },
+	  { "name": "obsidian", "bucket": "extras" },
+	  { "name": "notepad--", "bucket": "extras" },
+	  { "name": "zotero", "bucket": "extras" },
+	  { "name": "office-tool-plus", "bucket": "extras" }
+	],
+	"network": [
+	  { "name": "qbittorrent", "bucket": "extras" },
+	  { "name": "freedownloadmanager", "bucket": "extras" },
+	  { "name": "v2rayn", "bucket": "extras" },
+	  { "name": "curl" }
+	],
+	"embedded": [
+	  { "name": "stlink" },
+	  { "name": "kicad", "bucket": "extras" },
+	  { "name": "openocd" },
+	  { "name": "cmake" },
+	  { "name": "ninja" }
+	],
+	"dev-ai": [
+	  { "name": "claude-code" },
+	  { "name": "cc-switch", "bucket": "extras" }
+	],
+	"file-transfer": [
+	  { "name": "localsend", "bucket": "extras" },
+	  { "name": "syncthing" },
+	  { "name": "rclone" },
+	  { "name": "restic" },
+	  { "name": "filezilla", "bucket": "extras" },
+	  { "name": "baidudisk", "bucket": "scoopcn" }
+	],
+	"python": [
+      { "name": "python" },
+      { "name": "uv" },
+	  { "name": "miniconda", "bucket": "extras" }
+	],
+	"communication": [
+	  { "name": "wechat", "bucket": "extras" },
+	  { "name": "qq", "bucket": "extras" },
+	  { "name": "telegram", "bucket": "extras" },
+	  { "name": "we-meet", "bucket": "scoopcn" }
+	],
+	"downloader": [
+	  { "name": "qbittorrent", "bucket": "extras" },
+	  { "name": "freedownloadmanager", "bucket": "extras" }
+	],
+	"terminal": [
+	  { "name": "tabby", "bucket": "extras" }
+	],
+	"browser": [
+	  { "name": "firefox", "bucket": "extras" }
+	],
+	"design-3d": [
+	  { "name": "blender", "bucket": "extras" }
+	],
+	"game": [
+	  { "name": "steam", "bucket": "games" }
+	],
+	"misc": [
+	  { "name": "folo", "bucket": "extras" }
+	]
+  }
+}

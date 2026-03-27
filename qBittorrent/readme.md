@@ -33,7 +33,7 @@
 使用方法：
 
 ```powershell
-.\restore-qbittorrent.ps1 -ZipFile "路径\到\备份.zip"
+.\restore-qbittorrent.ps1 -f "路径\到\备份.zip"
 ```
 
 ------
